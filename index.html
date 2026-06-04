@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Recomendaciones externas Antic 2026-2027</title>
+<style>
+  :root{
+    --yellow:#fbff1f;
+    --blue:#0600ff;
+    --ink:#050505;
+    --paper:#fff;
+  }
+  *{box-sizing:border-box}
+  html{background:var(--yellow);scroll-behavior:smooth}
+  body{margin:0;background:var(--yellow);color:var(--ink);font-family:Helvetica, Arial, sans-serif;line-height:1.3;letter-spacing:0}
+  a{color:inherit;text-decoration:none}
+  .page{max-width:1120px;margin:0 auto;background:var(--paper);min-height:100vh;padding:28px 34px 58px}
+  .topbar{display:flex;justify-content:space-between;align-items:flex-start;gap:28px;margin-bottom:42px}
+  .logo{width:310px;transform:rotate(-1.5deg);filter:drop-shadow(8px 8px 0 #fff) drop-shadow(10px 10px 0 var(--ink))}
+  .logo img{display:block;width:100%;height:auto;border:3px solid var(--ink);background:var(--yellow)}
+  .header-note{text-align:right;max-width:560px;color:var(--blue);font-size:15px;line-height:1.15;font-weight:900;font-style:italic;text-transform:uppercase;padding-top:4px}
+  .cover{padding:34px 0 48px;border-top:6px solid var(--blue);border-bottom:6px solid var(--blue);margin-bottom:34px}
+  .eyebrow{color:var(--blue);font-weight:900;font-style:italic;text-transform:uppercase;font-size:17px;margin-bottom:14px}
+  h1{font-size:40px;line-height:.95;margin:0 0 18px;text-transform:uppercase;font-weight:900;letter-spacing:0;max-width:860px}
+  .intro{font-size:22px;max-width:920px;margin:0 0 36px}
+  .summary-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:32px}
+  .summary-card{display:block;border:3px solid var(--blue);padding:18px 14px 20px;min-height:190px;background:#fff;transform:skew(-5deg)}
+  .summary-card > *{transform:skew(5deg)}
+  .summary-card h3{font-size:15px;line-height:1;margin:0 0 10px;color:var(--blue);text-transform:uppercase;font-style:italic;font-weight:900}
+  .summary-card p{font-size:13px;margin:0;font-weight:700}
+  .summary-card:hover{background:var(--yellow)}
+  .summary-card .num{display:block;color:var(--ink);font-size:11px;text-transform:uppercase;margin-bottom:8px;font-weight:900}
+  .proposal{border-top:8px solid var(--blue);padding:34px 0 44px;break-inside:avoid;page-break-inside:avoid;scroll-margin-top:22px}
+  .hero-image{width:100%;background:#fff;display:flex;align-items:center;justify-content:center;overflow:hidden;margin-bottom:24px}
+  .hero-image img{width:100%;max-height:620px;object-fit:contain;display:block;background:#fff}
+  .proposal-head{display:grid;grid-template-columns:1fr auto;gap:18px;align-items:start;margin-bottom:15px}
+  h2{font-size:48px;line-height:.92;margin:0;text-transform:uppercase;font-weight:900;color:var(--blue);font-style:italic;letter-spacing:0}
+  .artist{font-size:18px;margin:8px 0 0;text-transform:uppercase;font-weight:900}
+  .tags{display:flex;flex-wrap:wrap;gap:8px;justify-content:flex-end;max-width:430px}
+  .tag{background:var(--yellow);border:2px solid var(--ink);padding:7px 10px;font-size:12px;text-transform:uppercase;font-weight:900;font-style:italic;transform:skew(-8deg)}
+  .tag span{display:block;transform:skew(8deg)}
+  .body{display:grid;grid-template-columns:1fr 1fr;gap:26px;align-items:start}
+  .body p{font-size:18px;margin:0 0 14px}
+  .take{background:var(--yellow);border-left:10px solid var(--blue);padding:16px 18px;font-size:18px;font-weight:700;margin:0}
+  .materials-title{font-size:18px;text-transform:uppercase;color:var(--blue);font-style:italic;font-weight:900;margin:0 0 12px}
+  .links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+  .links a{display:block;border:2px solid var(--blue);padding:11px 12px;background:#fff;font-size:14px;font-weight:900;color:var(--blue);font-style:italic;transform:skew(-7deg)}
+  .links a span{display:block;transform:skew(7deg)}
+  .links strong{color:var(--ink);font-style:normal}
+  .contact-block{margin-top:18px;padding-top:12px;border-top:2px solid var(--ink)}
+  .contact-title{font-size:12px;text-transform:uppercase;color:var(--ink);font-style:italic;font-weight:900;margin:0 0 9px}
+  .contact-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+  .contact-links a,.contact-links span{display:block;border:1px solid var(--ink);padding:7px 8px;background:var(--yellow);font-size:11px;font-weight:900;color:var(--ink);font-style:italic;text-transform:uppercase;transform:skew(-7deg)}
+  .contact-links a em,.contact-links span em{display:block;transform:skew(7deg);font-style:normal;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .side{border-top:8px solid var(--ink);padding:34px 0 20px;margin-top:10px;scroll-margin-top:22px}
+  .mini-nav{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:30px;padding-top:16px;border-top:2px solid var(--blue)}
+  .mini-col{display:grid;grid-template-rows:repeat(3,1fr);gap:7px}
+  .mini-nav a{display:block;min-width:0;border:1px solid var(--blue);color:var(--blue);background:#fff;padding:5px 7px;font-size:10px;text-transform:uppercase;font-weight:900;font-style:italic;text-align:center;transform:skew(-8deg)}
+  .mini-nav span{display:block;transform:skew(8deg);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .mini-nav a:hover{background:var(--yellow);color:var(--ink);border-color:var(--ink)}
+  .mini-nav .nav-arrow{font-size:13px;line-height:1}
+  .footer{margin-top:36px;border-top:4px solid var(--blue);padding-top:18px;display:flex;justify-content:space-between;font-size:12px;text-transform:uppercase;color:var(--blue);font-weight:900;font-style:italic}
+  @media (max-width:850px){.topbar,.proposal-head,.body{display:block}.summary-grid,.links,.contact-links{grid-template-columns:1fr}.header-note{text-align:left;margin-top:28px}.tags{justify-content:flex-start;margin-top:14px}.page{padding:22px}h2{font-size:36px}.mini-nav{grid-template-columns:repeat(3,minmax(0,1fr))}}
+  @media print{
+    @page{size:A4;margin:0}
+    html,body{background:var(--yellow)}
+    .page{max-width:none;width:210mm;margin:0;background:var(--paper);padding:0 12mm;min-height:0}
+    .topbar{margin-bottom:18mm}
+    .logo{width:72mm;filter:drop-shadow(2mm 2mm 0 #fff) drop-shadow(2.5mm 2.5mm 0 var(--ink))}
+    .header-note{font-size:9pt;max-width:92mm}
+    .cover{height:220mm;margin:0;padding:10mm 0;border-top-width:5px;border-bottom-width:5px}
+    h1{font-size:28pt;margin-bottom:5mm}.intro{font-size:12pt;max-width:170mm;margin-bottom:10mm}
+    .summary-grid{grid-template-columns:repeat(3,1fr);gap:5mm;margin-top:10mm}
+    .summary-card{min-height:37mm;padding:4mm}
+    .summary-card h3{font-size:9pt}.summary-card p{font-size:8pt}
+    .proposal,.side{height:277mm;break-before:page;page-break-before:always;padding:8mm 0 0;margin:0;border-top-width:6px;overflow:hidden}
+    #luz{break-before:auto;page-break-before:auto}
+    .hero-image{height:95mm;margin-bottom:6mm}
+    .hero-image img{width:100%;height:100%;max-height:none;object-fit:contain}
+    .proposal-head{grid-template-columns:1fr;gap:3mm;margin-bottom:4mm}
+    h2{font-size:25pt;line-height:.9}.artist{font-size:11pt;margin-top:2mm}
+    .tags{justify-content:flex-start;max-width:none}.tag{font-size:7pt;padding:2mm 2.5mm}
+    .body{grid-template-columns:1fr 1fr;gap:7mm}
+    .body p{font-size:10pt;margin-bottom:3mm}.take{font-size:9pt;padding:4mm;border-left-width:6px}
+    .materials-title{font-size:10pt;margin-bottom:3mm}.links{gap:2.3mm}
+    .links a{font-size:8pt;padding:2.4mm 3mm}
+    .contact-block{margin-top:4mm;padding-top:3mm}.contact-title{font-size:7pt;margin-bottom:2mm}
+    .contact-links{gap:2mm}.contact-links a,.contact-links span{font-size:7pt;padding:2mm}
+    .mini-nav{gap:2.5mm;margin-top:5mm;padding-top:4mm}.mini-col{gap:2mm}
+    .mini-nav a{font-size:7pt;padding:1.7mm 2mm}.mini-nav .nav-arrow{font-size:8pt}
+    .footer{margin-top:0;padding-top:2mm;font-size:8pt}
+  }
+</style>
+</head>
+<body>
+<main class="page" id="top">
+  <header class="topbar">
+    <div class="logo" aria-label="Antic Teatre Espai de Creació">
+      <img src="assets/logo_antic_oficial.jpg" alt="Antic Teatre Espai de Creació">
+    </div>
+    <div class="header-note">Recomendaciones externas / Temporada 2026-2027 / Propuestas fuera de Catalunya / posible línea INAEM para Antic Teatre</div>
+  </header>
+
+  <section class="cover">
+    <div class="eyebrow">Propuestas recomendadas</div>
+    <h1>Fuera de Catalunya, con afinidad Antic</h1>
+    <p class="intro">Selección de piezas que dialogan con la investigación, la experimentación y el desarrollo de nuevos lenguajes escénicos: cuerpos, nuevas dramaturgias, artes vivas, humor grotesco, sonido, archivo y dispositivos híbridos.</p>
+    <div class="summary-grid">
+      <a class="summary-card" href="#luz"><span class="num">01</span><h3>Luz Prado</h3><p>Cuerpo, escucha y sonido. Una pieza muy fina; si no entra en Salmon, creo que sería una opción muy buena para apoyar desde Antic.</p></a>
+      <a class="summary-card" href="#clara"><span class="num">02</span><h3>Clara Pampyn</h3><p>Madrid, presencia escénica, cuerpo y fragilidad. Encaje directo con nuevas dramaturgias y una voz muy actual.</p></a>
+      <a class="summary-card" href="#ana"><span class="num">03</span><h3>Ana Lessing</h3><p>Universo fuerte entre flamenco, archivo político, cuerpo e instalación. Interesa decidir si mover Third Skin o REMATAR.</p></a>
+      <a class="summary-card" href="#ibon"><span class="num">04</span><h3>Ibon Salvador</h3><p>Pieza inmersiva: oscuridad, cuerpo, percepción y experiencia sensorial. Muy buena si buscamos nuevos lenguajes del cuerpo.</p></a>
+      <a class="summary-card" href="#tarara"><span class="num">05</span><h3>La Tarara</h3><p>Punk, grotesco, bufón y humor raro. Energía Antic muy clara, con presencia escénica directa.</p></a>
+      <a class="summary-card" href="#javier"><span class="num">06</span><h3>Javier Hedrosa</h3><p>Escritura expandida, cine, dobles pantallas y cuerpo. Me interesa mucho por cómo trabaja capas de imagen, audio y referencia.</p></a>
+    </div>
+  </section>
+
+  <section class="proposal" id="luz">
+    <div class="hero-image"><img src="assets/luz.jpg" alt="Un violin inmenso - Luz Prado"></div>
+    <div class="proposal-head"><div><h2>Un violín inmenso</h2><div class="artist">Luz Prado</div></div><div class="tags"><span class="tag"><span>Málaga / España</span></span><span class="tag"><span>Nuevos lenguajes del cuerpo</span></span><span class="tag"><span>Artes vivas sonoras</span></span></div></div>
+    <div class="body"><div><p>Luz Prado es violinista, música y performer. La pieza funciona como concierto expandido: un violín que ocupa todo el teatro, o un teatro que vibra como un violín. Trabaja la relación entre cuerpo, instrumento, espacio y escucha.</p><p class="take">Me gusta que le hayas pasado esta propuesta a Quim. La he visto y me parece muy interesante. Si no la cogen en Salmon, creo que sería muy buena opción para apoyar desde Antic.</p></div><div><div class="materials-title">Materiales encontrados</div><div class="links"><a href="https://www.youtube.com/watch?v=lxUmZfDjUHk"><span><strong>Video completo</strong> / YouTube</span></a><a href="https://www.youtube.com/watch?v=50ndIQCikLU"><span><strong>Teaser</strong> / YouTube</span></a><a href="https://luzprado.com/"><span><strong>Web</strong> / Luz Prado</span></a><a href="https://www.juntadeandalucia.es/cultura/teatros/teatro-canovas/un-violin-inmenso"><span><strong>Ficha pública</strong> / Teatro Canovas</span></a></div><div class="contact-block"><div class="contact-title">Contacto y enlaces</div><div class="contact-links"><a href="mailto:pablocontreras@protonmail.com"><em>Pablo Contreras / email</em></a><a href="https://luzprado.com/"><em>Web Luz Prado</em></a></div></div></div></div>
+    <nav class="mini-nav"><div class="mini-col"><a href="#luz"><span>Luz Prado</span></a><a href="#ibon"><span>Ibon</span></a><a class="nav-arrow" href="#top"><span>&#8593;&#8593; Inicio</span></a></div><div class="mini-col"><a href="#clara"><span>Clara</span></a><a href="#tarara"><span>La Tarara</span></a><a class="nav-arrow prev-link" href="#top"><span>&#8593; Anterior</span></a></div><div class="mini-col"><a href="#ana"><span>Ana</span></a><a href="#javier"><span>Javier</span></a><a class="nav-arrow next-link" href="#clara"><span>&#8595; Siguiente</span></a></div></nav>
+  </section>
+
+  <section class="proposal" id="clara">
+    <div class="hero-image"><img src="assets/clara.jpg" alt="La interprete - Clara Pampyn"></div>
+    <div class="proposal-head"><div><h2>La intérprete</h2><div class="artist">Clara Pampyn / Laimperfecta</div></div><div class="tags"><span class="tag"><span>Madrid / España</span></span><span class="tag"><span>Nuevas dramaturgias</span></span><span class="tag"><span>Cuerpo y presencia</span></span></div></div>
+    <div class="body"><div><p>Pieza estrenada en Replika Teatro a finales de 2024 y circulada por varias salas. Gira alrededor de éxito, identidad, trabajo, amor, cansancio y práctica artística desde una presencia escénica muy directa.</p><p class="take">Me interesa porque tiene cuerpo, fragilidad, pensamiento y no se queda solo en discurso. Tiene una estética bastante actual y creo que puede funcionar muy bien.</p></div><div><div class="materials-title">Materiales encontrados</div><div class="links"><a href="https://vimeo.com/1151322954/da917a322c?share=copy&fl=sv&fe=ci"><span><strong>Video completo</strong> / Vimeo</span></a><a href="http://www.laimperfecta.com"><span><strong>Web</strong> / Laimperfecta</span></a><a href="https://teatromadrid.com/espectaculo/la-interprete"><span><strong>Ficha pública</strong> / Teatro Madrid</span></a><a href="https://www.clarapampyn.com"><span><strong>Web</strong> / Clara Pampyn</span></a></div><div class="contact-block"><div class="contact-title">Contacto y enlaces</div><div class="contact-links"><a href="mailto:clara.pampyn@gmail.com"><em>Clara / email</em></a><a href="https://www.instagram.com/clara.pampyn/"><em>@clara.pampyn</em></a><a href="https://www.instagram.com/colectivolaimperfecta/"><em>@colectivolaimperfecta</em></a><a href="https://www.latarea.net/"><em>La Tarea gestión</em></a></div></div></div></div>
+    <nav class="mini-nav"><div class="mini-col"><a href="#luz"><span>Luz Prado</span></a><a href="#ibon"><span>Ibon</span></a><a class="nav-arrow" href="#top"><span>&#8593;&#8593; Inicio</span></a></div><div class="mini-col"><a href="#clara"><span>Clara</span></a><a href="#tarara"><span>La Tarara</span></a><a class="nav-arrow prev-link" href="#luz"><span>&#8593; Anterior</span></a></div><div class="mini-col"><a href="#ana"><span>Ana</span></a><a href="#javier"><span>Javier</span></a><a class="nav-arrow next-link" href="#ana"><span>&#8595; Siguiente</span></a></div></nav>
+  </section>
+
+  <section class="proposal" id="ana">
+    <div class="hero-image"><img src="assets/ana.jpg" alt="Third Skin - Ana Lessing Menjibar"></div>
+    <div class="proposal-head"><div><h2>Third Skin / REMATAR</h2><div class="artist">Ana Lessing Menjibar</div></div><div class="tags"><span class="tag"><span>Alemania / España</span></span><span class="tag"><span>Nuevos lenguajes del cuerpo</span></span><span class="tag"><span>Archivo, flamenco y artes vivas</span></span></div></div>
+    <div class="body"><div><p>Artista hispano-alemana que trabaja entre danza contemporánea, flamenco, artes visuales, instalación, música electrónica y archivo político. Third Skin aborda memoria familiar, fascismo, heridas colectivas y resistencia. REMATAR estrena en febrero de 2027 en Berlín y busca colaboraciones en España.</p><p class="take">Su universo es muy potente para Antic. Primero conviene confirmar si puede facturar desde España o mediante una entidad española, y decidir con ella si tiene más sentido mover Third Skin o REMATAR apoyándonos en su trabajo anterior.</p></div><div><div class="materials-title">Materiales encontrados</div><div class="links"><a href="https://vimeo.com/1164688368/d4af09d217?share=copy&fl=sv&fe=ci"><span><strong>Pieza completa</strong> / Replika Madrid</span></a><a href="https://vimeo.com/893796174/27fd34dc2a"><span><strong>Versión mejor color</strong> / estreno</span></a><a href="https://www.analessingmenjibar.com/third-skin"><span><strong>Ficha</strong> / Third Skin</span></a><a href="https://drive.google.com/open?id=1nY9j31LW0cav8VhngxagxsN9_D-9-QU7&usp=drive_fs"><span><strong>Material Drive</strong> / dossier, portfolio y REMATAR</span></a></div><div class="contact-block"><div class="contact-title">Contacto y enlaces</div><div class="contact-links"><a href="mailto:info@analessingmenjibar.com"><em>Ana / email</em></a><a href="tel:+491626082909"><em>+49 162 60 82 909</em></a><a href="https://www.instagram.com/analessingmenjibar/"><em>@analessingmenjibar</em></a><a href="https://www.analessingmenjibar.com/"><em>Web Ana</em></a></div></div></div></div>
+    <nav class="mini-nav"><div class="mini-col"><a href="#luz"><span>Luz Prado</span></a><a href="#ibon"><span>Ibon</span></a><a class="nav-arrow" href="#top"><span>&#8593;&#8593; Inicio</span></a></div><div class="mini-col"><a href="#clara"><span>Clara</span></a><a href="#tarara"><span>La Tarara</span></a><a class="nav-arrow prev-link" href="#clara"><span>&#8593; Anterior</span></a></div><div class="mini-col"><a href="#ana"><span>Ana</span></a><a href="#javier"><span>Javier</span></a><a class="nav-arrow next-link" href="#ibon"><span>&#8595; Siguiente</span></a></div></nav>
+  </section>
+
+  <section class="proposal" id="ibon">
+    <div class="hero-image"><img src="assets/boca.jpg" alt="BOCA NOCHE GAUA AHOA - Ibon Salvador"></div>
+    <div class="proposal-head"><div><h2>BOCA NOCHE / GAUA AHOA</h2><div class="artist">Ibon Salvador</div></div><div class="tags"><span class="tag"><span>Euskadi / España</span></span><span class="tag"><span>Nuevos lenguajes del cuerpo</span></span><span class="tag"><span>Danza-performance inmersiva</span></span></div></div>
+    <div class="body"><div><p>Pieza de 60 minutos entre oscuridad, percepción, vibración, cuerpos, voces y oscilaciones. Un umbral entre lo que se ve, lo que se escucha y lo que se presiente. Los primeros minutos del video completo son a oscuras como parte de la propuesta inmersiva.</p><p class="take">Me parece muy Antic si buscamos una pieza sensorial y corporal, menos textual y más de experiencia. Olga ya abrió la puerta a 1.500 euros o algún fijo, y posible alojamiento si la pieza interesa mucho.</p></div><div><div class="materials-title">Materiales encontrados</div><div class="links"><a href="https://drive.google.com/file/d/1tbGQdoYKGvjNoYHsyYHjryq68SBlKXOb/view?usp=sharing"><span><strong>Video completo</strong> / Drive</span></a><a href="https://vimeo.com/1166340956"><span><strong>Teaser</strong> / Vimeo</span></a><a href="https://badbilbao.eus/actividades/boca-noche-gaua-ahoa/"><span><strong>Ficha pública</strong> / BAD Bilbao</span></a><a href="https://munstro-erritualak.hotglue.me/"><span><strong>Web</strong> / MUNSTRO Erritualak</span></a></div><div class="contact-block"><div class="contact-title">Contacto y enlaces</div><div class="contact-links"><a href="mailto:ibonsalvador@gmail.com"><em>Ibon / email</em></a><a href="https://munstro-erritualak.hotglue.me/"><em>MUNSTRO web</em></a></div></div></div></div>
+    <nav class="mini-nav"><div class="mini-col"><a href="#luz"><span>Luz Prado</span></a><a href="#ibon"><span>Ibon</span></a><a class="nav-arrow" href="#top"><span>&#8593;&#8593; Inicio</span></a></div><div class="mini-col"><a href="#clara"><span>Clara</span></a><a href="#tarara"><span>La Tarara</span></a><a class="nav-arrow prev-link" href="#ana"><span>&#8593; Anterior</span></a></div><div class="mini-col"><a href="#ana"><span>Ana</span></a><a href="#javier"><span>Javier</span></a><a class="nav-arrow next-link" href="#tarara"><span>&#8595; Siguiente</span></a></div></nav>
+  </section>
+
+  <section class="proposal" id="tarara">
+    <div class="hero-image"><img src="assets/tarara.jpg" alt="Dios bendiga a Tiny - La Tarara"></div>
+    <div class="proposal-head"><div><h2>Dios bendiga a Tiny</h2><div class="artist">La Tarara / Marie Delgado</div></div><div class="tags"><span class="tag"><span>Madrid / España</span></span><span class="tag"><span>Nuevas dramaturgias</span></span><span class="tag"><span>Performance, humor y grotesco</span></span></div></div>
+    <div class="body"><div><p>Creación escénica multidisciplinar sobre Tiny Tim: teatro, performance, música, coreografía, audiovisual, humor grotesco y energía bufona. Ireneu la recomendó como súper punk contemporáneo mezclado con grotesco y bufón.</p><p class="take">Creo que puede funcionar muy bien en Antic por humor raro, cuerpo, exceso y una estética incómoda pero popular. Es más directa que Javier y probablemente más fácil de defender si buscamos presencia escénica y energía.</p></div><div><div class="materials-title">Materiales encontrados</div><div class="links"><a href="https://drive.google.com/file/d/1oca4jFPiH7LRo9nngejV--Z0ypLIrgbw/view?usp=drivesdk"><span><strong>Video completo</strong> / Drive</span></a><a href="https://drive.google.com/file/d/1I1LOV5mut_aVRoaTDj_zR2ENa3NgN1Rw/view?usp=drivesdk"><span><strong>Happening / material</strong> / Drive</span></a><a href="https://drive.google.com/drive/folders/1Gu1QTsMuzFMuclV8-qtSmeMkVaqYNjoF"><span><strong>Carpeta</strong> / videos</span></a><a href="https://teatromadrid.com/espectaculo/dios-bendiga-a-tiny"><span><strong>Ficha pública</strong> / Teatro Madrid</span></a></div><div class="contact-block"><div class="contact-title">Contacto y enlaces</div><div class="contact-links"><a href="mailto:mariedelgadotrujillo3@gmail.com"><em>Marie Delgado / email</em></a><a href="https://teatromadrid.com/espectaculo/dios-bendiga-a-tiny"><em>Ficha Teatro Madrid</em></a></div></div></div></div>
+    <nav class="mini-nav"><div class="mini-col"><a href="#luz"><span>Luz Prado</span></a><a href="#ibon"><span>Ibon</span></a><a class="nav-arrow" href="#top"><span>&#8593;&#8593; Inicio</span></a></div><div class="mini-col"><a href="#clara"><span>Clara</span></a><a href="#tarara"><span>La Tarara</span></a><a class="nav-arrow prev-link" href="#ibon"><span>&#8593; Anterior</span></a></div><div class="mini-col"><a href="#ana"><span>Ana</span></a><a href="#javier"><span>Javier</span></a><a class="nav-arrow next-link" href="#javier"><span>&#8595; Siguiente</span></a></div></nav>
+  </section>
+
+  <section class="side" id="javier">
+    <div class="hero-image"><img src="assets/javier.jpg" alt="Escrituras no creativas - Javier Hedrosa"></div>
+    <div class="proposal-head"><div><h2>Escrituras no creativas</h2><div class="artist">Javier Hedrosa</div></div><div class="tags"><span class="tag"><span>Valencia / España</span></span><span class="tag"><span>Nuevas dramaturgias</span></span><span class="tag"><span>Escritura expandida y dispositivo</span></span></div></div>
+    <div class="body"><div><p>Propuesta de escritura coreográfica a partir de Suspiria, con copia, remake, autoría, traducción simultánea y variación. Tiene apoyos muy buenos: La Mutant, Dansa Valencia, Espai LaGranja, La Casa Encendida, La Nau Ivanow e IVC.</p><p class="take">Me interesa mucho porque genera dobles pantallas y capas de referencia: una proyección grande, una pantalla pequeña con Blancanieves, otra película al fondo, y un trabajo de audio que va desplazando la lectura de la escena. Hacia el minuto 40-50 del vídeo se ve muy claro ese juego entre cine, cuerpo, copia, traducción y dispositivo.</p></div><div><div class="materials-title">Materiales encontrados</div><div class="links"><a href="https://escriturasnocreativas.com/"><span><strong>Video / web</strong> / Escrituras no creativas</span></a><a href="https://www.lamutant.com/portfolio-item/escrituras-no-creativas-javier-hedrosa/"><span><strong>Ficha pública</strong> / La Mutant</span></a><a href="https://www.lacasaencendida.es/cultura/taller-escrituras-no-creativas-con-javier-j-hedrosa-y-paula-romero"><span><strong>Contexto</strong> / La Casa Encendida</span></a><a href="https://www.tea-tron.com/lamutant/blog/2024/10/16/entrevista-a-javier-j-hedrosa/"><span><strong>Entrevista</strong> / Tea-tron La Mutant</span></a></div><div class="contact-block"><div class="contact-title">Contacto y enlaces</div><div class="contact-links"><a href="mailto:jjhedrosa@gmail.com"><em>Javier / email</em></a><a href="https://escriturasnocreativas.com/"><em>Web de la pieza</em></a><a href="https://www.lamutant.com/portfolio-item/escrituras-no-creativas-javier-hedrosa/"><em>Información La Mutant</em></a></div></div></div></div>
+    <nav class="mini-nav"><div class="mini-col"><a href="#luz"><span>Luz Prado</span></a><a href="#ibon"><span>Ibon</span></a><a class="nav-arrow" href="#top"><span>&#8593;&#8593; Inicio</span></a></div><div class="mini-col"><a href="#clara"><span>Clara</span></a><a href="#tarara"><span>La Tarara</span></a><a class="nav-arrow prev-link" href="#tarara"><span>&#8593; Anterior</span></a></div><div class="mini-col"><a href="#ana"><span>Ana</span></a><a href="#javier"><span>Javier</span></a><a class="nav-arrow next-link" href="#top"><span>&#8595; Siguiente</span></a></div></nav>
+  </section>
+
+  <footer class="footer"><div>ANTIC TEATRE / recomendación de proyectos para INAEM</div><div>Preparado por Adrián Vega / junio 2026</div></footer>
+</main>
+</body>
+</html>
